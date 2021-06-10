@@ -1,0 +1,60 @@
+/* Small Devices */
+@media screen and (max-width: 768px) { 
+    .section_1{
+        padding-bottom: 150px;
+    }
+    .section_1::before{
+        height: 50px;
+        clip-path: polygon(100% 0%, 0% 100%, 100% 100%);
+    }
+    .s1_c1 > h1{
+        font-size: 2.0em;
+    }
+    .s1_c1 > p{
+        font-size: 1em;
+    }
+    .s1_c1{
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+
+    .group_buttons{
+        max-width: 78%;
+        margin-top: 75px;
+    }
+    .group_buttons > button{
+        padding: 15px 35px;
+        font-size: 1em;
+        height: 60px;
+    }
+    .section_2{
+        top: -250px;
+    }
+    .section_2 > h4{
+        margin-left: 42px;
+        font-size: 1.5em;
+    }
+    .button_launch{
+        margin-top: 50px;
+    }
+    .layout_tld{
+        margin-top: 16px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .layout_tld > img{
+        margin-left: 22px;
+        margin-right: 22px;
+        width: 300px;
+    }
+    .section_3::before{
+        height: 50px;
+    }
+    .section_3::after{
+        height: 50px;
+    }
+    .section_3 > div > h4 {
+        margin-top: 80px;
+        font-size: 1.8em;
+    }
+}

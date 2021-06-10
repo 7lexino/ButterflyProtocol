@@ -1,0 +1,55 @@
+/* Extra Large Devices */
+@media screen and (max-width: 1432px) { 
+    .layout_main_menu > span{
+        width: 50px;
+        background-color: transparent;
+        margin: 0px;
+        padding: 0px;
+        margin-left: 30px;
+    }
+    .layout_main_menu > nav{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .layout_main_menu > nav > a{
+        max-width: 100px;
+    }
+    .layout_main_menu{
+        width: 77%;
+        background-color: transparent;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+        align-items: center;
+        
+    }
+
+    .layout_main_menu > span{
+        display: inline-block;
+    }
+    .s1_c1 > h1{
+        font-size: 3.8em;
+    }
+    .section_3{
+        height: auto;
+    }
+    .img_voxel{
+        top: 20px;
+        position: relative;
+        width: 80%;
+        margin-left: -80px;
+    }
+    .section_3 > div{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
