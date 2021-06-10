@@ -1,0 +1,31 @@
+:root{
+    /* Colors */
+    --color-white: #FFF;
+    --color-black: #000;
+    --color-azulrey: #212ABE;
+    --color-azulmarino: #1A1A63;
+    --color-azulverdoso: #01ABB6;
+    --color-naranja: #FA5F4F;
+
+    /* Fonts */
+    --font-family-poppins: Poppins;
+    --font-family-works: Work Sans;
+    --font-family-roboto: Poppins;
+
+}
+
+*{
+    margin: 0px;
+    padding:0px;
+}
+body{
+    background-color: var(--color-white);
+    font-size: 1em;
+    font-family: var(--font-family-roboto);
+}
+html{
+    font-size: 100%;
+}
+p{
+    font-size: 1em;
+}
