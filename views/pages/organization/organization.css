@@ -1,0 +1,58 @@
+.main_header{
+    background: transparent radial-gradient(ellipse at 20% 125%, var(--color-azulverdoso) 0%, var(--color-azulverdoso) 5%, var(--color-azulrey) 100%, var(--color-azulrey) 100%) 0% 0% no-repeat padding-box;
+    background: transparent radial-gradient(ellipse at 20% 125%, #01ABB6 0%, #01ABB6 5%, #212ABE 100%, #212ABE 100%) 0% 0% no-repeat padding-box;
+}
+.section_2{
+    width: 40%;
+    top: 0px;
+    margin: 0 auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.section_2 > p{
+    line-height: 2.6;
+}
+.section_3{
+    width: 100%;
+    top: 0px;
+    height: auto;
+    padding-bottom: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.section_3 > h2{
+    font-size: 2.2em;
+    margin-left: 5%;
+}
+.section_3 > div{
+    margin-top: 20px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.card_profile{
+    min-width: 150px;
+    max-width: 230px;
+    background-color: transparent;
+    color: var(--color-white);
+    color: #FFF;
+}
+.card_profile > img{
+    width: 100%;
+}
+.card_profile > h3{
+    font-size: 1.8em;
+}
+.card_profile > p{
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.section_4{
+    top: 0px;
+}
