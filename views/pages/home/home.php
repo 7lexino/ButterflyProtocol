@@ -3,7 +3,7 @@
   <head>
     <?php
       //Include Head
-      include_once("../local/views/templates/head.php");
+      include_once("../ButterflyProtocol/views/templates/head.php");
     ?>
 
     <title>Butterfly Protocol :: Home</title>
@@ -18,7 +18,7 @@
       <div class="section_1">
         <?php
           //Include Main Header
-          include_once("../local/views/templates/header.php");
+          include_once("../ButterflyProtocol/views/templates/header.php");
         ?>
       
         <article class="s1_c1">
