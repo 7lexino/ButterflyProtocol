@@ -1,3 +1,3 @@
 <?php
-  include_once("../local/views/pages/home/home.php");
+  include_once("../ButterflyProtocol/views/pages/home/home.php");
 ?>
