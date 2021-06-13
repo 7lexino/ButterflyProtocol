@@ -46,7 +46,7 @@
       </div>
     
       <div class="section_3">
-        <div>
+        <div class="s3_content">
           <h4>Sponsor Top-Level Domains</h4>
           <div class="group_buttons2">
             <a href="#"><button><img src="./assets/img/community.svg" alt="">For Community</button></a>
