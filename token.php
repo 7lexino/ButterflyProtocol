@@ -51,7 +51,7 @@
 
          <div class="section_3_token">
            <div class="s3_c3_token">
-           <div class="c3_left_img"><img src="assets/img/left_lines.svg" alt=""></div>
+           <div class="c3_left_img"><img class="img_s3" src="assets/img/left_lines.svg" alt=""></div>
                 <div class="text_c3"><h2>Maximum total supply will drop from the original 100 
                   million when Top-Level Domains are sponsored. As of June 2021, 
                   close to 1 million or 1% of total supply has already been burned.</h2></div>
@@ -78,16 +78,11 @@
                 </div>
            </div>
          </div>
-    <!--
-      <div class="section_3_token">
-        
-      
-      </div>
-
-      <div class="section_4_token">
-      
-      
-      </div> -->
+    
+         <?php
+      //Footer
+      include_once("../ButterflyProtocol/views/templates/footer.php");
+    ?>
 
     <!-- Begin Constant Contact Active Forms -->
     <script> var _ctct_m = "a5b89f36f45290075e5533325d23a827"; </script>

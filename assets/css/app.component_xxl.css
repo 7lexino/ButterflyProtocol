@@ -417,6 +417,7 @@ nav#ani-navbar a:hover:after{
     width: 100%;
     height: 600px;
     padding-top: 300px; 
+    background-image: url(../img/img_line.svg);
 }
 .section_5::before{
     content: '';
@@ -447,7 +448,7 @@ nav#ani-navbar a:hover:after{
 }
 
 .s5_c2 > span{
-    display: inline-block;
+    
     padding: 2% 50px;
     float: right;
     
@@ -507,8 +508,9 @@ nav#ani-navbar a:hover:after{
 .section_6 {
     text-align: center;
     background-color: #ABB6D3;
-    padding: 20px;
-    font-weight: normal;
+    padding: 30px;
+    font-size: small;
+    margin-top: -100px;
 }
 
 
