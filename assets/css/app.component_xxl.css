@@ -81,6 +81,7 @@ h6{
 .mobile_menu{
     display: none;
     padding: 10px;
+    z-index: 99;
 }
 /* .mobile_menu:hover{
     animation: rotar 1.5s alternate;
@@ -100,6 +101,7 @@ h6{
     flex-wrap: nowrap;
     justify-content: flex-end;
     background-color: transparent;
+    z-index: 999;
 }
 .layout_main_menu > nav{
     display: flex;
@@ -135,7 +137,29 @@ h6{
 }
 
 
+/* animaciones navbar*/
 
+nav#ani-navbar a{
+    position: relative;
+    font-weight:bold;
+    margin: 0px 15px;
+}
+nav#ani-navbar a:after{
+    position: absolute;
+    bottom: 7px;
+    left: 0px;
+    width: 100%;
+    height: 3px;
+    background-color: #00C3FF ;
+    content: "";
+    opacity: 0;
+    transition: opacity 0.3s ease 0s, transform 0.3s ease 0s;
+    transform: translateY(20px);        
+}
+nav#ani-navbar a:hover:after{
+    opacity:1;
+    transform: translateY(15px)
+}
 
 
 .s1_c1{
@@ -281,7 +305,7 @@ h6{
     width: 100%;
     max-width: 900px;
 }
-.section_3 > div{
+.s3_content{
     width: 80%;
     margin-left: 10%;
 }
@@ -340,7 +364,7 @@ h6{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: stretch;
     width: 70%;
     margin: 0 auto;
@@ -379,16 +403,23 @@ h6{
     position: relative;
     top: 25px;
 }
+.container_boxes > div > p{
+    display: block;
+}
 /* --------------- End Section 4 --------------- */
 
 /* --------------- Section 5 --------------- */
 .section_5{
     background-color: #1F1FC1;
     position: relative;
-    top: -100px;
+    margin-top: 200px;
+    top: 0px;
     width: 100%;
-    height: 600px;
+    height: auto;
     padding-top: 300px; 
+    padding-bottom: 100px;
+    z-index: 4;
+    /* background-image: url(../img/img_line.svg); */
 }
 .section_5::before{
     content: '';
@@ -404,4 +435,112 @@ h6{
 .s5_c1{
     margin-left: 15%;
 }
+
+.s5_c1 > p{
+    color: #FFF;
+    font-weight: 100;
+    font-size: 24px;
+    display: block;
+}
+
+.s5_c2{
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
+
+.s5_c2 > span{
+
+}
+
+.s5_c2 > span > li{
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+    margin:3px;
+    list-style: none;
+    display: inline-block;
+    transition: transform .5s;
+}
+.s5_c2 > span > li:hover{
+    border-radius: 100px;
+    transform: scale(1.5);
+    
+}
+
+.box-email{
+    width: 40%;
+    background-color: #00B0B6;
+    padding: 30px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.box-email > input{
+    width: 60%;
+    min-width: 200px;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #FFF;
+}
+
+.box-email > button{
+    width: 150px;
+    background-color: #FD5E49;
+    border: none;
+    color: white;
+    padding: 14px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 100px;
+    outline: none;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.btn-submit:hover{
+    background-color: #df4c39; 
+}
+.copy_footer{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    background-color: #ABB6D3; 
+    top: 0px;
+    padding: 30px 0px
+}
+.copy_footer > p{
+    font-size: small;
+    display: block;
+}
 /* --------------- End Section 5 --------------- */
+
+.ctct-inline-form > div > div > form > h2, p{
+    display: none;
+}
+.ctct-inline-form > div > div > p{
+    display: none;
+}
+.ctct-inline-form > div > div > form > div > label{
+    display: none;
+}
+.ctct-inline-form > div > div > form > div > input{
+    display: inline-block;
+    width: 200px;
+}
+.ctct-inline-form > div > div > form > button{
+    background-color: var(--color-naranja);
+    background-color: #FA5F4F;
+    border: 0px solid var(--color-naranja);
+    border: 0px solid #FA5F4F;
+    border-radius: 35px;
+    color: var(--color-white);
+    color: #FFF;
+    display: inline-block;
+    padding: 20px 50px;
+}
