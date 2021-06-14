@@ -2,6 +2,9 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<!-- Favicon -->
+<link rel="shortcut icon" href="./assets/img/icons/favicon.png" type="image/x-icon">  
+
 <!-- Google Fonts -->
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Roboto:wght@500&family=Work+Sans&display=swap" rel="stylesheet">

@@ -36,9 +36,9 @@
       </div>
       <div class="section_3">
         <div class="logos-box">
-          <div class="btn01"><img src="./assets/img/uniswap.svg" alt=""></div>
-          <div class="btn02"><img src="./assets/img/Hotbit.svg" alt=""></div>
-          <div class="btn03"><img src="./assets/img/MEXC-Global.svg" alt=""></div>
+          <div class="btn01"><a target="_blank" href="https://uniswap.org/"><img src="./assets/img/uniswap.svg" alt="Uniswap"></a></div>
+          <div class="btn02"><a target="_blank" href="https://www.hotbit.io/"><img src="./assets/img/Hotbit.svg" alt="Hotbit"></a></div>
+          <div class="btn03"><a target="_blank" href="https://www.mxc.com/"><img src="./assets/img/MEXC-Global.svg" alt="MXC"></a></div>
         </div>
 
         <div class="s3_content">

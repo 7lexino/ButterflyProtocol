@@ -9,7 +9,7 @@
       <li><a target="_blank" href="https://twitter.com/butterflyproto/"><img src="./assets/img/twitter_icon.svg" alt=""></a></li>
       <li><a target="_blank" href="https://medium.com/bproto"><img src="./assets/img/m_icon.svg" alt=""></a></li>
       <li><a target="_blank" href="https://t.me/bproto"><img width="25px" src="./assets/img/telegram_icon.svg" alt=""></a></li>
-      <li><a target="_blank" href="mailto:sales@butterflyprotocol.io"><img width="25px" src="./assets/img/email_icon.svg" alt=""></a></li>
+      <li><a target="_blank" href="mailto:info@bproto.io"><img width="25px" src="./assets/img/email_icon.svg" alt=""></a></li>
     </span>
 
     <div class="box-email">
