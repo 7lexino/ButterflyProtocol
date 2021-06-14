@@ -3,11 +3,11 @@
   <head>
     <?php
       //Include Head
-      include_once("../ButterflyProtocol/views/templates/head.php");
+      include_once("./views/templates/head.php");
     ?>
-    <link rel="stylesheet" href="../ButterflyProtocol/views/pages/organization/organization.css">
+    <link rel="stylesheet" href="./views/pages/resources/resources.css">
 
-    <title>Butterfly Protocol :: Home</title>
+    <title>Butterfly Protocol :: Resources</title>
   </head>
   <body>
 
@@ -19,7 +19,7 @@
       <div class="section_1">
         <?php
           //Include Main Header
-          include_once("../ButterflyProtocol/views/templates/header.php");
+          include_once("./views/templates/header.php");
         ?>  
       </div>
     
@@ -29,12 +29,12 @@
         </div>
         <div class="s2_content">
           <div>
-            <span>Organization</span>
-            <h1>Butterfly organization</h1>
-            <p>The Butterfly Protocol is intended to be a decentralized autonomous organization (DAO) that focuses on bringing the most robust naming environment to the decentralized internet. <br/><br/> Butterfly was built to allow anyone in the world who has an internet connection to access and create content and applications without fear of censorship. Its leaders guide more than they dictate the future of what Butterfly can be. With a combination of proprietary and open-source tools and platforms, Butterfly allows anyone to participate by sponsoring top-level domains, creating dapps and more.</p>
+            <span>Resources</span>
+            <h1>Butterfly Protocol</h1>
+            <p>We create an environment where anyone can build decentralized apps and resources for using the decentralized web. As development progresses, we aim to keep the community aware of the applications that are being developed. To understand more about how Butterfly works and opportunities for contributing and participating, start with the whitepaper and brief overview:</p>
           </div>
         </div>
-        <p>The Butterfly Protocol is intended to be a decentralized autonomous organization (DAO) that focuses on bringing the most robust naming environment to the decentralized internet. <br/><br/> Butterfly was built to allow anyone in the world who has an internet connection to access and create content and applications without fear of censorship. Its leaders guide more than they dictate the future of what Butterfly can be. With a combination of proprietary and open-source tools and platforms, Butterfly allows anyone to participate by sponsoring top-level domains, creating dapps and more.</p>
+        <p>We create an environment where anyone can build decentralized apps and resources for using the decentralized web. As development progresses, we aim to keep the community aware of the applications that are being developed. To understand more about how Butterfly works and opportunities for contributing and participating, start with the whitepaper and brief overview:</p>
       </div>
     
       <div class="section_3">

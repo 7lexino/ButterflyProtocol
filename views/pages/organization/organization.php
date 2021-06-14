@@ -3,11 +3,11 @@
   <head>
     <?php
       //Include Head
-      include_once("../ButterflyProtocol/views/templates/head.php");
+      include_once("./views/templates/head.php");
     ?>
-    <link rel="stylesheet" href="../ButterflyProtocol/views/pages/organization/organization.css">
+    <link rel="stylesheet" href="./views/pages/organization/organization.css">
 
-    <title>Butterfly Protocol :: Home</title>
+    <title>Butterfly Protocol :: Organization</title>
   </head>
   <body>
 
@@ -19,7 +19,7 @@
       <div class="section_1">
         <?php
           //Include Main Header
-          include_once("../ButterflyProtocol/views/templates/header.php");
+          include_once("./views/templates/header.php");
         ?>  
       </div>
     

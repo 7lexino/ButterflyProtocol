@@ -29,7 +29,7 @@
 }
 .s2_content > div{
     margin-top: 100px;
-    margin-right: 250px;
+    margin-right: 100px;
     margin-bottom: 0px;
     margin-left: 0px;
 }
@@ -51,7 +51,7 @@
 }
 .section_3{
     width: 100%;
-    height: auto;
+    height: 600px;
     top: 0px;
     display: flex;
     flex-wrap: nowrap;
@@ -73,78 +73,74 @@
     height: 200px;
     background-color: var(--color-white);
     background-color: #FFF;
-    clip-path: polygon(0% 0%, 100% 100%, 0% 100%);
-    z-index: 0;
-}
-.s3_voxel{
-    display: block;
-    background-color: transparent;
-    position: absolute;
-    top: -100px;
-    right: 0px;
-    margin-right: 5%;
-}
-.s3_bigvoxel{
-    position: absolute;
-    bottom: 0px;
-    left: -25px;
+    clip-path: polygon(0% 100%, 100% 00%, 100% 100%);
     z-index: 1;
 }
-.s3_bigvoxel > img{
-    width: 70%;
-}
-.s3_description{
-    position: relative;
-    width: 40%;
-    background-color: transparent;
-    margin: 0px;
-    margin-left: 8%;
-    padding-right: 100px;
-}
-.s3_description > p{
-    margin-left: 30px;
-    margin-top: 20px;
+.s3_content > p{
     color: var(--color-white);
-    font-weight: lighter;
     font-family: var(--font-family-works);
 }
-.s3_profiles{
-    position: relative;
-    width: 60%;
-    background-color: transparent;
-    margin: 0px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-right: 5%;
-    padding-top: 40px;
+.s3_content > p > a{
+    color: #00C3FF;
+    text-decoration: none;
 }
-.s3_description > h2{
-    font-size: 2.2em;
+.s3_content > p > a:hover{
+    color: #00C3FF;
+    text-decoration: underline;
 }
-.card_profile{
-    width: 300px;
-    background-color: transparent;
-    color: var(--color-white);
-    color: #FFF;
-    margin: 20px;
-}
-.card_profile > img{
+.img_voxel{
+    position: absolute;
+    z-index: 3;
+    top: 200px;
+    right: -10%;
     width: 100%;
-    border-radius: 10px;
+    max-width: 900px;
 }
-.card_profile > h3{
+.s3_content{
+    width: 80%;
+    margin-left: 10%;
+}
+
+
+
+.s3_content2 > p{
+    color: var(--color-white);
     font-family: var(--font-family-works);
-    font-size: 1.5em;
-    font-weight: 100;
+    margin-left: 50px;
+    margin-right: 50px;
 }
-.card_profile > p{
-    font-family: var(--font-family-works);
-    font-size: 14px;
-    font-weight: lighter;
-    margin-left: 30px;
+.s3_content2 > p > a{
+    color: #00C3FF;
+    text-decoration: none;
 }
+.s3_content2 > p > a:hover{
+    color: #00C3FF;
+    text-decoration: underline;
+}
+.s3_content2 > hr{
+    margin: 20px auto;
+    width: 200px;
+}
+.img_voxel{
+    position: absolute;
+    z-index: 3;
+    top: 200px;
+    right: -10%;
+    width: 100%;
+    max-width: 900px;
+}
+.s3_content2{
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: transparent;
+}
+.h_auto{
+    top: 100px;
+    height: auto;
+    padding-bottom: 15%;
+}
+
 
 .section_4{
     position: relative;
@@ -179,20 +175,40 @@
         margin-bottom: 0px;
         margin-left: 0px;
     }
+    .s2_content > div > h1{
+        line-height: 70px;
+        font-size: 3.5em;
+    }
     .section_2 > p{
         display: none;
     }
     .section_3{
+        height: auto;
+    }
+    .group_buttons2{
+        width: 250px;
+        display: flex;
         justify-content: center;
+        flex-direction: row;
+    }
+    .img_voxel{
+        position: relative;
+        width: 80%;
+        background-color: transparent;
+        margin-left: 0px;
+        top: 50px;
+        right: unset;
+        max-width: unset;
+    }
+    .s3_content{
+        background-color: transparent;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
         flex-wrap: wrap;
-        padding-bottom: 20%;
-    }
-    .s3_voxel{
-        display: none;
-    }
-    .s3_bigvoxel{
-        top: 0px;
-        z-index: 0;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
     .card_profile{
         width: 220px;
@@ -213,6 +229,10 @@
     .section_2{
         flex-wrap: wrap;
     }
+    .s2_content > div > h1{
+        line-height: 50px;
+        font-size: 2.5em;
+    }
     .section_2 > p{
         display: block;
         background-color: transparent;
@@ -224,6 +244,9 @@
     .card_profile{
         width: 160px;
         z-index: 1;
+    }
+    .h_auto{
+        padding-bottom: 25%;
     }
 }
 
@@ -260,6 +283,9 @@
         width: 280px;
         z-index: 1;
     }
+    .section_3{
+        padding-top: 0px;
+    }
 }
 
 /* SM */
@@ -277,5 +303,8 @@
 @media screen and (max-width: 576px) { 
     .s2_content > div > h1{
         font-size: 1.8em;
+    }
+    .group_buttons2{
+        flex-wrap: wrap;
     }
 }
