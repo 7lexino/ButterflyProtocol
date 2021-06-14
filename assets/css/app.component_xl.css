@@ -25,7 +25,7 @@
         flex-wrap: nowrap;
         justify-content: flex-end;
         align-items: center;
-        
+        z-index: 100;
     }
 
     .layout_main_menu > span{
@@ -42,6 +42,7 @@
         position: relative;
         width: 80%;
         margin-left: -80px;
+        z-index: 3;
     }
     .s3_content{
         width: 80%;
