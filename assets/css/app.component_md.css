@@ -12,12 +12,16 @@
         top: 15px;
         right: 15px;
         cursor: pointer;
-        z-index: 2;
+        z-index: 99;
         background-color: #1D2EAB;
         padding: 15px 20px;
     }
     .mobile_menu:hover{
         background-color: #1929a1;
+    }
+    .layout_main_menu{
+        position: fixed;
+        z-index: 98;
     }
     .fa-bars{
         color: #FFF;
@@ -93,4 +97,10 @@
         margin-top: 150px;
         font-size: 1.8em;
     }
+    .section_4 > h4{
+        margin-top: 200px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
 }

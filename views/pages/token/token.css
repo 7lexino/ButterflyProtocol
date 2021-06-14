@@ -49,36 +49,25 @@
     color: #1A1A63;
     line-height: 1.5;
 }
+
 /* ///// Cajas de logos //////*/
-.container-logos{
-    background-color: rgb(77, 77, 77);
+.logos-box{
+    background-color: transparent;
+    position: absolute;
+    top: -60px;
+    width: 100%;
     display: flex;
-    flex-flow: column nowrap;
-    bottom: -100px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
 }
-      .logos-box{
-          display: flex;
-          flex-flow: row nowrap;
-          height: 100px;
-          padding-left: 300px;
-          padding-right: 300px;
-          bottom: -230px;
-          align-items: center;
-          position: absolute;
-          z-index: 1;
-      }
-
-         .btn01, .btn02, .btn03{
-            background: #FFF;
-             flex: 1 1 auto;
-             height: 90px;
-             margin: 10px;
-             padding: 10px;
-             text-align: center;
-             border-radius: 10px;
-            box-shadow: 5px 10px 39px 1px rgba(117, 117, 117, 0.71)
-         }
-
+.logos-box > div{
+    margin: 0px 10px;
+    background: #FFF;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 5px 10px 39px 1px rgba(117, 117, 117, 0.71)
+}
 
 .section_3{
     width: 100%;
@@ -131,10 +120,17 @@
     width: 80%;
     margin-left: 10%;
 }
-
-
-
+.img_bigvoxel_right{
+    position: absolute;
+    top: -250px;
+    right: 0px;
+}
+.img_bigvoxel_right > img{
+    width: 70%;
+    float: right;
+}
 .s3_content2 > p{
+    display: block;
     color: var(--color-white);
     font-family: var(--font-family-works);
     margin-left: 50px;
@@ -171,8 +167,6 @@
     height: auto;
     padding-bottom: 15%;
 }
-
-
 .section_4{
     position: relative;
     width: 100%;
@@ -182,18 +176,17 @@
     padding-top: 100px;
     padding-bottom: 100px;
 }
-.section_4 > div{
-    width: 800px;
-    height: 400px;
-    background-color: black;
-    border-radius: 20px;
-    margin: 0 auto;
-    margin-top: 50px;
+.img_left_lines{
+    position: absolute;
+    left: 0px;
+}
+.img_left_lines > img{
+    width: 80%;
+    float: left;
 }
 .section_5{
     top: 0px;
 }
-
 
 
 /* XL */
@@ -340,4 +333,3 @@
         flex-wrap: wrap;
     }
 }
-

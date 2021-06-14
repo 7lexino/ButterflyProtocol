@@ -3,8 +3,9 @@
   <head>
     <?php
       //Include Head
-      include_once("../ButterflyProtocol/views/templates/head.php");
+      include_once("./views/templates/head.php");
     ?>
+    <script src="./assets/js/slider.js"></script>
 
     <title>Butterfly Protocol :: Home</title>
   </head>
@@ -18,7 +19,7 @@
       <div class="section_1">
         <?php
           //Include Main Header
-          include_once("../ButterflyProtocol/views/templates/header.php");
+          include_once("./views/templates/header.php");
         ?>
       
         <article class="s1_c1">
@@ -36,11 +37,11 @@
       <div class="section_2">
         <h4>For Current Top-Level Domains</h4>
         <div id="layout_stats" class="layout_tld">
-          <img src="./assets/img/stats.png" alt="">
-          <img src="./assets/img/stats.png" alt="">
-          <img src="./assets/img/stats.png" alt="">
+          <img src="./assets/img/Find-Dashboard-Butterfly.png" alt="">
+          <img src="./assets/img/Register-Dashboard-Butterfly.png" alt="">
+          <img src="./assets/img/Use-Dashboard-Butterfly.png" alt="">
         </div>
-        <a href="#">
+        <a href="https://app.butterflyprotocol.io/#/dashboard">
           <button class="button_launch">Launch app</button>
         </a>
       </div>
@@ -131,16 +132,7 @@
     
       <?php
       //Footer
-      include_once("../ButterflyProtocol/views/templates/footer.php");
+      include_once("./views/templates/footer.php");
     ?>
-
-    <!-- Begin Constant Contact Active Forms -->
-    <script> var _ctct_m = "a5b89f36f45290075e5533325d23a827"; </script>
-    <script id="signupScript" src="//static.ctctcdn.com/js/signup-form-widget/current/signup-form-widget.min.js" async defer></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
-    <!-- End Constant Contact Active Forms -->
   </body>
 </html>

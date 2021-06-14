@@ -81,6 +81,7 @@ h6{
 .mobile_menu{
     display: none;
     padding: 10px;
+    z-index: 99;
 }
 /* .mobile_menu:hover{
     animation: rotar 1.5s alternate;
@@ -100,6 +101,7 @@ h6{
     flex-wrap: nowrap;
     justify-content: flex-end;
     background-color: transparent;
+    z-index: 999;
 }
 .layout_main_menu > nav{
     display: flex;
@@ -362,7 +364,7 @@ nav#ani-navbar a:hover:after{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: stretch;
     width: 70%;
     margin: 0 auto;
@@ -401,16 +403,22 @@ nav#ani-navbar a:hover:after{
     position: relative;
     top: 25px;
 }
+.container_boxes > div > p{
+    display: block;
+}
 /* --------------- End Section 4 --------------- */
 
 /* --------------- Section 5 --------------- */
 .section_5{
     background-color: #1F1FC1;
     position: relative;
+    margin-top: 200px;
     top: 0px;
     width: 100%;
     height: auto;
     padding-top: 300px; 
+    padding-bottom: 100px;
+    z-index: 4;
     /* background-image: url(../img/img_line.svg); */
 }
 .section_5::before{
@@ -424,27 +432,27 @@ nav#ani-navbar a:hover:after{
     background-color: #FFF;
     clip-path: polygon(100% 100%, 100% 0%, 0% 0%);
 }
-.section_5 img{
-    padding-top: -100px;
-}
 .s5_c1{
     margin-left: 15%;
 }
 
-.s5_c1 p{
+.s5_c1 > p{
     color: #FFF;
     font-weight: 100;
     font-size: 24px;
+    display: block;
 }
 
 .s5_c2{
-    padding-top: 100px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
 }
 
 .s5_c2 > span{
-    padding: 2% 50px;
-    float: right;
-    
+
 }
 
 .s5_c2 > span > li{
@@ -463,48 +471,76 @@ nav#ani-navbar a:hover:after{
 }
 
 .box-email{
+    width: 40%;
     background-color: #00B0B6;
-    display: grid;
-    grid-template-columns: 500px 1fr 2fr;
-    float: right;
-    padding: 2%;
-    border-radius: 10px;
+    padding: 30px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
 }
-.box-email div{
-    display: inline;
-    padding: 5px;
-    text-align: center;
-}
-.box-email span input{
-    width: 50%;
-  padding: 16px 20px;
-  border: none;
-  border-radius: 4px;
-  background-color: #FFF;
+.box-email > input{
+    width: 60%;
+    min-width: 200px;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #FFF;
 }
 
-.btn-submit{
+.box-email > button{
     width: 150px;
-        background-color: #FD5E49; /* Green */
-        border: none;
-        color: white;
-        padding: 14px 20px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        border-radius: 100px;
+    background-color: #FD5E49;
+    border: none;
+    color: white;
+    padding: 14px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 100px;
+    outline: none;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.btn-submit:hover{
+    background-color: #df4c39; 
+}
+.copy_footer{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    background-color: #ABB6D3; 
+    top: 0px;
+    padding: 30px 0px
+}
+.copy_footer > p{
+    font-size: small;
+    display: block;
 }
 /* --------------- End Section 5 --------------- */
 
-/* --------------- Section 6 --------------- */
-.section_6 {
-    text-align: center;
-    background-color: #ABB6D3;
-    padding: 30px;
-    font-size: small;
-    margin-top: -100px;
+.ctct-inline-form > div > div > form > h2, p{
+    display: none;
 }
-
-
-/* --------------- End Section 6 --------------- */
+.ctct-inline-form > div > div > p{
+    display: none;
+}
+.ctct-inline-form > div > div > form > div > label{
+    display: none;
+}
+.ctct-inline-form > div > div > form > div > input{
+    display: inline-block;
+    width: 200px;
+}
+.ctct-inline-form > div > div > form > button{
+    background-color: var(--color-naranja);
+    background-color: #FA5F4F;
+    border: 0px solid var(--color-naranja);
+    border: 0px solid #FA5F4F;
+    border-radius: 35px;
+    color: var(--color-white);
+    color: #FFF;
+    display: inline-block;
+    padding: 20px 50px;
+}

@@ -34,18 +34,13 @@
           </div>
         </div>
       </div>
-      <!-- ////////////////////////////////////////////-->
-      <div class="container-logos">
-        <div class="header">
-           <div class="logos-box">
-                <div class="btn01"><img src="./assets/img/uniswap.svg" alt=""></div>
-                <div class="btn02"><img src="./assets/img/Hotbit.svg" alt=""></div>
-                <div class="btn03"><img src="./assets/img/MEXC-Global.svg" alt=""></div>
-           </div>
-        </div>
-      </div> 
-        <!--////////////////////////////////////// -->
       <div class="section_3">
+        <div class="logos-box">
+          <div class="btn01"><a target="_blank" href="https://uniswap.org/"><img src="./assets/img/uniswap.svg" alt="Uniswap"></a></div>
+          <div class="btn02"><a target="_blank" href="https://www.hotbit.io/"><img src="./assets/img/Hotbit.svg" alt="Hotbit"></a></div>
+          <div class="btn03"><a target="_blank" href="https://www.mxc.com/"><img src="./assets/img/MEXC-Global.svg" alt="MXC"></a></div>
+        </div>
+
         <div class="s3_content">
           <h4>Other ways to trade include</h4>
           <div class="group_buttons2">
@@ -58,10 +53,12 @@
       </div>
 
       <div class="section_4">
+        <div class="img_left_lines"><img src="./assets/img/left_lines.svg" alt=""></div>
         <h4>Maximum total supply will drop from the original 100 million when Top-Level Domains are sponsored. As of June 2021, close to 1 million or 1% of total supply has already been burned.</h4>
       </div>
 
       <div class="section_3 h_auto">
+        <div class="img_bigvoxel_right"><img src="./assets/img/right_img.svg" alt=""></div>
         <div class="s3_content s3_content2">
           <h4>Original Tokenomics</h4>
           <hr>
