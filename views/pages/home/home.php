@@ -5,6 +5,7 @@
       //Include Head
       include_once("../ButterflyProtocol/views/templates/head.php");
     ?>
+    <script src="./assets/js/slider.js"></script>
 
     <title>Butterfly Protocol :: Home</title>
   </head>
@@ -133,14 +134,5 @@
       //Footer
       include_once("../ButterflyProtocol/views/templates/footer.php");
     ?>
-
-    <!-- Begin Constant Contact Active Forms -->
-    <script> var _ctct_m = "a5b89f36f45290075e5533325d23a827"; </script>
-    <script id="signupScript" src="//static.ctctcdn.com/js/signup-form-widget/current/signup-form-widget.min.js" async defer></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
-    <!-- End Constant Contact Active Forms -->
   </body>
 </html>
