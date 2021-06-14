@@ -3,7 +3,7 @@
   <head>
     <?php
       //Include Head
-      include_once("../ButterflyProtocol/views/templates/head.php");
+      include_once("./views/templates/head.php");
     ?>
     <script src="./assets/js/slider.js"></script>
 
@@ -19,7 +19,7 @@
       <div class="section_1">
         <?php
           //Include Main Header
-          include_once("../ButterflyProtocol/views/templates/header.php");
+          include_once("./views/templates/header.php");
         ?>
       
         <article class="s1_c1">
@@ -132,7 +132,7 @@
     
       <?php
       //Footer
-      include_once("../ButterflyProtocol/views/templates/footer.php");
+      include_once("./views/templates/footer.php");
     ?>
   </body>
 </html>
