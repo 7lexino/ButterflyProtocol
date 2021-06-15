@@ -44,10 +44,10 @@
         <div class="s3_content">
           <h4>Other ways to trade include</h4>
           <div class="group_buttons2">
-            <a href="#"><button><img src="./assets/img/community.svg" alt="">1Inch</button></a>
-            <a href="#"><button><img src="./assets/img/private.svg" alt="">PancakeSwap</button></a>
+            <a target="_blank" href="https://app.1inch.io/#/1/swap/ETH/DAI"><button><img src="./assets/img/community.svg" alt="">1Inch</button></a>
+            <a target="_blank" href="https://exchange.pancakeswap.finance/#/swap"><button><img src="./assets/img/private.svg" alt="">PancakeSwap</button></a>
           </div>
-          <p>View Governance Token Contract on<br>Etherscan <a href="">here.</a></p>
+          <p>View Governance Token Contract on<br>Etherscan <a target="_blank" href="https://etherscan.io/token/0xf680429328caaaCabee69b7A9FdB21a71419c063">here.</a></p>
           <img class="img_voxel" data-aos="fade-up" data-aos-duration="1000" src="./assets/img/cube_token.svg" alt="">
         </div>
       </div>
@@ -72,7 +72,7 @@
             <br><br>All TLDs are ERC-721 tokens and carry on as the respective TLD Root. However, private 
             TLD sponsors can have the root locked and then take the TLD cross chain. This opens 
             up a significant range of opportunities for sponsors.
-            <br><br>See the original tokenomics <a href="">here.</a>
+            <br><br>See the original tokenomics <a target="_blank" href="https://www.butterflyprotocol.io/wp-content/uploads/2021/01/ButterflyProtocol_Tokenomics_v4.pdf">here.</a>
           </p>
         </div>
       </div>
