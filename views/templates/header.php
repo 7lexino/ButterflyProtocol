@@ -11,8 +11,8 @@
             <a href="./resources.php" class="menu_link">Resources</a>
             <a target="_blank" href="https://medium.com/bproto" class="menu_link">Blog</a>
             <a href="./token.php" class="menu_link">Token</a>
-            <a href="#" class="menu_link">Domain Dashboard</a>
-            <a href="#" class="menu_link">NFT Marketplace</a>
+            <a href="https://app.butterflyprotocol.io/#/dashboard" class="menu_link">Domain Dashboard</a>
+            <!-- <a href="#" class="menu_link">NFT Marketplace</a> -->
         </nav>
         <span>
             <li><a target="_blank" href="https://twitter.com/butterflyproto/"><img src="./assets/img/twitter_icon.svg" alt=""></a></li>
