@@ -172,7 +172,8 @@ nav#ani-navbar a:hover:after{
 .s1_c1 > h1{
     margin-top: 10%;
 }
-.s1_c1 > P{
+.s1_c1 > p{
+    display: block;
     font-family: var(--font-family-works);
     font-size: 1.5em;
     color: var(--color-white);

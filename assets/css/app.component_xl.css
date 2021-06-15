@@ -32,10 +32,13 @@
         display: inline-block;
     }
     .s1_c1 > h1{
-        font-size: 3.8em;
+        font-size: 3.5em;
     }
     .section_3{
         height: auto;
+    }
+    .layout_tld > img{
+        width: 50%;
     }
     .img_voxel{
         top: 20px;
@@ -52,5 +55,9 @@
         justify-content: center;
         align-items: center;
         text-align: center;
+    }
+
+    .button_launch{
+        font-size: 1em;
     }
 }

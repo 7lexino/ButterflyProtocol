@@ -35,7 +35,7 @@
             <div class="btns_group">
               <a href="https://www.butterflyprotocol.io/wp-content/uploads/2020/12/ButterflyProtocolWhitePaper-1.pdf">
                 <button class="btn_whitepaper">Whitepaper</button></a>
-              <a href="#"><button class="btn_overview">Overview document</button></a>
+              <a href="https://www.butterflyprotocol.io/wp-content/uploads/2020/12/ButterflyProtocol_Overview_Deck.pdf"><button class="btn_overview">Overview document</button></a>
             </div>
           </div>
         </div>
