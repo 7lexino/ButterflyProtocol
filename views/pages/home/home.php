@@ -6,6 +6,7 @@
       include_once("./views/templates/head.php");
     ?>
     <script src="./assets/js/slider.js"></script>
+    <script src="./assets/js/modal.js"></script>
 
     <title>Butterfly Protocol :: Home</title>
   </head>
@@ -59,32 +60,32 @@
 
         
           <!-- Modal -->
-                <div id="ModalId" class="modal">
-                <!-- Modal content -->
-                <div class="modal-content">
-                  <span class="close">&times;</span>
-                  <div class="modal-text">
-                  Community Sponsorships are where anyone can sponsor a Top-Level Domain 
-                  for a small amount of BFLY tokens. The original amount of BFLY needed 
-                  was 10,000 and has been going down 10 BFLY per day until it stops going 
-                  down at 100 BFLY. Refer to the Overview document to see how this is put into place.
-                  </div>
-                </div>
-                </div>
+            <div id="ModalId" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <div class="modal-text">
+              Community Sponsorships are where anyone can sponsor a Top-Level Domain 
+              for a small amount of BFLY tokens. The original amount of BFLY needed 
+              was 10,000 and has been going down 10 BFLY per day until it stops going 
+              down at 100 BFLY. Refer to the Overview document to see how this is put into place.
+              </div>
+            </div>
+            </div>
           <!-- -->
           <!--  Modal 2 -->
           <div id="ModalId2" class="modal2">
-                <!-- Modal content -->
-                <div class="modal-content2">
-                  <span class="close2">&times;</span>
-                  <div class="modal-text2">
-                  Private Sponsorship is when 100,000 BFLY tokens are used to do a 
-                  total takeover of the Top-Level Domain, giving the sponsor full 
-                  control over using the TLD for their desired use. It can form the 
-                  basis of a DApp, a token sale or other ways in which management of a TLD has value.
-                  </div>
-                </div>
-                </div>
+            <!-- Modal content -->
+            <div class="modal-content2">
+              <span class="close2">&times;</span>
+              <div class="modal-text2">
+              Private Sponsorship is when 100,000 BFLY tokens are used to do a 
+              total takeover of the Top-Level Domain, giving the sponsor full 
+              control over using the TLD for their desired use. It can form the 
+              basis of a DApp, a token sale or other ways in which management of a TLD has value.
+              </div>
+            </div>
+            </div>
           <!-- -->
           <img class="img_voxel" data-aos="fade-up" data-aos-duration="1000" src="./assets/img/voxels.svg" alt="">
         </div>
@@ -167,48 +168,5 @@
       //Footer
       include_once("./views/templates/footer.php");
     ?>
-
-<script>
-var modal = document.getElementById("ModalId");
-var btn = document.getElementById("community-id");
-var span = document.getElementsByClassName("close")[0];
-
-btn.onclick = function() {
-  modal.style.display = "block";
-}
-
-span.onclick = function() {
-  modal.style.display = "none";
-}
-
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
-
-
-var modal2 = document.getElementById("ModalId2");
-var btn2 = document.getElementById("private-id");
-var span2 = document.getElementsByClassName("close2")[0];
-
-
-btn2.onclick = function() {
-  modal2.style.display = "block";
-}
-
-span2.onclick = function() {
-  modal2.style.display = "none";
-}
-
-window.onclick = function(event) {
-  if (event.target == modal2) {
-    modal2.style.display = "none";
-  }
-}
-
-
-</script>
-    
   </body>
 </html>

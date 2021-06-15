@@ -575,8 +575,10 @@ nav#ani-navbar a:hover:after{
   
 .modal-text, .modal-text2{
     margin: 50px 100px;
+    margin-bottom: 100px;
     color:#1A1A63 ;
     font-size: 18px;
+    text-align: left;
 }
 /* The Close Button */
 .close, .close2 {
