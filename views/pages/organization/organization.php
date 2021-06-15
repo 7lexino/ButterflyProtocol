@@ -42,15 +42,13 @@
           <img src="./assets/img/cube_voxel.svg" alt="">
         </div>
         <div class="s3_description">
-          <h2>Guided by</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem fugit pariatur iure et placeat quam, repellendus, nesciunt quia adipisci sint ipsum assumenda accusamus illo. Distinctio rerum aliquid odio ad accusamus.</p>
-          <p><br> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur et consectetur, eius sapiente dolorem ad, cum eligendi libero facilis, corrupti esse id suscipit sint numquam nulla! Culpa vero nostrum eum optio ipsum veniam dolores voluptatibus nulla quis reprehenderit, dicta accusantium odio repellendus fuga at minus ab recusandae eveniet explicabo accusamus maiores consectetur. Omnis repudiandae ducimus sit ut non, accusantium iusto nulla molestias voluptatibus. Alias, voluptatum impedit possimus asperiores vitae qui iure fugiat amet consectetur obcaecati officiis necessitatibus? Sequi, laboriosam voluptate?</p>
-        </div>
+          <h1>Guided by</h1>
+         </div>
         <div class="s3_profiles">
           <div class="card_profile">
             <img src="./assets/img/Dana-Farbo.jpeg" alt="Dana Forbo - President">
             <h3><a href="https://www.linkedin.com/in/dfarbo/" target="_blank"><img src="./assets/img/linkedin_icon.svg" width="20px" alt=""></a> DANA FARBO</h3>
-            <p>President</p>
+            <p>Strategy</p>
           </div>
   
           <div class="card_profile">
