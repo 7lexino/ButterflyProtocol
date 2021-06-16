@@ -6,24 +6,20 @@
       include_once("./views/templates/head.php");
     ?>
 
-
     <link rel="stylesheet" href="./views/pages/resources/resources.css">
+    <link rel="stylesheet" href="./views/templates/footer/footer.css">
 
     <script src="./assets/js/modal.js"></script>
     
     <title>Butterfly Protocol :: Resources</title>
   </head>
   <body>
-
-    <div class="container-fluid">
-      
-    </div>
-
+    
     <div class="main_container">
       <div class="section_1">
         <?php
           //Include Main Header
-          include_once("./views/templates/header.php");
+          include_once("./views/templates/header/header.php");
         ?>  
       </div>
     
@@ -94,13 +90,8 @@
 
       <?php
         //Footer
-        include_once("./views/templates/footer.php");
+        include_once("./views/templates/footer/footer.php");
       ?>
     </div>
-
-    <!-- Begin Constant Contact Active Forms -->
-    <script> var _ctct_m = "a5b89f36f45290075e5533325d23a827"; </script>
-    <script id="signupScript" src="//static.ctctcdn.com/js/signup-form-widget/current/signup-form-widget.min.js" async defer></script>
-    <!-- End Constant Contact Active Forms -->
   </body>
 </html>
