@@ -1,7 +1,7 @@
-<div class="section_5">
+<div class="footer">
   <div class="s5_c1">
     <h2>Get Involved</h2>
-    <p>Subscribe to our mailing list or contact<br>us through any of the following channels</p>
+    <p>Subscribe to our Newsletter or contact<br>us through any of the following channels</p>
   </div>
 
   <div class="s5_c2">
@@ -27,7 +27,8 @@
 <script> var _ctct_m = "a5b89f36f45290075e5533325d23a827"; </script>
 <script id="signupScript" src="//static.ctctcdn.com/js/signup-form-widget/current/signup-form-widget.min.js" async defer></script>
 <!-- End Constant Contact Active Forms -->
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<!-- Init Animation On Scroll Library -->
 <script>
     AOS.init();
 </script>

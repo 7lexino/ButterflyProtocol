@@ -1,0 +1,527 @@
+/* Super Extra Large Devices */
+.main_container{
+    width: 100%;
+    min-height: 100vh;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+/* --------------- Section 1 --------------- */
+.section_1{
+    position: relative;
+    width: 100%;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: transparent radial-gradient(ellipse at 20% 125%, var(--color-azulverdoso) 0%, var(--color-azulverdoso) 5%, var(--color-azulrey) 100%, var(--color-azulrey) 100%) 0% 0% no-repeat padding-box;
+    background: transparent radial-gradient(ellipse at 20% 125%, #01ABB6 0%, #01ABB6 5%, #212ABE 100%, #212ABE 100%) 0% 0% no-repeat padding-box;
+    padding-bottom: 400px;
+    
+}
+.section_1::before{
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0px;
+    width: 100%;
+    height: 200px;
+    background-color: var(--color-white);
+    clip-path: polygon(100% 0%, 0% 100%, 100% 100%);
+}
+
+/*  Aqui iba el menu */
+
+.s1_c1{
+    margin: 0 auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+.s1_c1 > h1{
+    margin-top: 10%;
+    color: var(--color-white);
+    font-weight: lighter;
+}
+.s1_c1 > p{
+    display: block;
+    font-family: var(--font-family-works);
+    font-size: 1.5em;
+    color: var(--color-white);
+    color: #FFF;
+    font-weight: lighter;
+    margin-top: 25px;
+}
+.group_buttons{
+    background-color: var(--color-azulverdoso);
+    background-color: #01ABB6;
+    border: 0px;
+    border-radius: 38px;
+    max-width: 660px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 130px auto;
+    box-shadow: 0px 5px 10px #0C346215;
+}
+.group_buttons > button{
+    padding: 25px 50px;
+    background-color: transparent;
+    color: var(--color-white);
+    color: #FFF;
+    font-size: 1.2em;
+    font-weight: lighter;
+    border-radius: 64px;
+    border: 0px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 75px;
+}
+.group_buttons > button:focus{
+    background-color: var(--color-azulrey);
+}
+.group_buttons > button > img{
+    margin-right: 5px;
+}
+/* --------------- End Section 1 --------------- */
+
+/* --------------- Section 2 --------------- */
+.section_2{
+    position: relative;
+    top: -470px;
+    text-align: center;
+    
+}
+.section_2 > h4{
+    color: var(--color-white);
+    font-weight: lighter;
+    margin-left: 130px;
+    text-align: left;
+}
+.layout_tld{
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow-x: scroll;
+    overflow-x: hidden;
+    cursor: grab;
+    padding-left: 88px;
+    padding-right: 88px;
+    margin-top: 38px;
+}
+.layout_tld > img{
+    margin-left: 42px;
+    margin-right: 42px;
+}
+.button_launch{
+    background: var(--color-naranja) 0% 0% no-repeat padding-box;
+    background: #FA5F4F 0% 0% no-repeat padding-box;
+    box-shadow: 0px 10px 35px #00000027;
+    border-radius: 43px;
+    border: 0px;
+    padding: 25px 40px;
+    color: var(--color-white);
+    font-size: 1.38em;
+    margin-top: 70px;
+    cursor: pointer;
+    transition: background 0.5s;
+}
+.button_launch:hover{
+    background: var(--color-azulrey) 0% 0% no-repeat padding-box;
+    background: #212ABE 0% 0% no-repeat padding-box;
+}
+/* --------------- End Section 2 --------------- */
+
+/* --------------- Section 3 --------------- */
+.section_3{
+    position: relative;
+    top: -400px;
+    width: 100%;
+    background: var(--color-azulmarino);
+    background-color: #1A1A63;
+    height: 600px;
+    padding-top: 300px; 
+}
+.section_3::before{
+    content: '';
+    position: absolute;
+    top: -1px;
+    left: 0px;
+    width: 100%;
+    height: 200px;
+    background-color: var(--color-white);
+    background-color: #FFF;
+    clip-path: polygon(100% 100%, 100% 0%, 0% 0%);
+}
+.section_3::after{
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0px;
+    width: 100%;
+    height: 200px;
+    background-color: var(--color-white);
+    background-color: #FFF;
+    clip-path: polygon(100% 0%, 0% 100%, 100% 100%);
+    z-index: 2;
+}
+.img_voxel{
+    position: absolute;
+    z-index: 3;
+    top: 200px;
+    right: -10%;
+    width: 100%;
+    max-width: 900px;
+}
+.s3_content{
+    width: 80%;
+    margin-left: 10%;
+}
+.s3_content > h4{
+    color: #FFF;
+    font-weight: lighter;
+}
+.group_buttons2 > button{
+    background-color: transparent;
+    border: 1px solid var(--color-white);
+    border: 1px solid #FFF;
+    border-radius: 64px;
+    padding: 15px 52px;
+    color: var(--color-white);
+    color: #FFF;
+    font-family: var(--font-family-works);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 25px;
+    transition: background 0.5s;
+    outline: none;
+    font-size: 18px;
+}
+.group_buttons2  > button:hover{
+    background-color: var(--color-naranja);
+    background-color: #FA5F4F;
+    border-color: var(--color-naranja);
+    border-color: #FA5F4F;
+}
+.group_buttons2 > button > img{
+    width: 25px;
+    margin-right: 15px;
+}
+/* --------------- End Section 3 --------------- */
+
+/* --------------- Section 4 --------------- */
+.section_4{
+    position: relative;
+    top: -300px;
+    width: 100%;
+    background-color: transparent;
+    text-align: center;
+}
+.section_4 > h4{
+    color: #1A1A63;
+    margin: 0px 30% 20px 30%;
+}
+.section_4 > hr{
+    border: 1px solid #ABB6D3;
+    width: 150px;
+    margin: 0 auto;
+}
+.container_boxes{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    width: 1200px;
+    margin: 0 auto;
+    background-color: transparent;
+}
+.container_boxes > div {
+    position: relative;
+    background-color: var(--color-white);
+    background-color: #FFF;
+    border: 1px solid var(--color-white);
+    border-radius: 25px;
+    padding: 70px;
+    box-shadow: 0px 10px 55px #1B1D611C;
+    width: 240px;
+    margin-left: 30px;
+    margin-top: 100px;
+    color: #1A1A63;
+    text-align: left;
+}
+.container_boxes > div > h6 {
+    color: #1A1A63;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.container_boxes > div > div {
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    height: 100px;
+    width: 100px;
+    background-color: #1F1FC1;
+    border-radius: 100px;
+    text-align: center;
+}
+.container_boxes > div > div > img{
+    position: relative;
+    top: 25px;
+}
+.container_boxes > div > p{
+    display: block;
+}
+/* --------------- End Section 4 --------------- */
+
+
+/* Extra Large Devices */
+@media screen and (max-width: 1432px) { 
+    /* menu */
+    .s1_c1 > h1{
+        font-size: 3.8em;
+    }
+    .section_3{
+        height: auto;
+    }
+    .img_voxel{
+        top: 20px;
+        position: relative;
+        width: 80%;
+        margin-left: -80px;
+        z-index: 3;
+    }
+    .s3_content{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .layout_tld > img{
+        width: 500px;
+    }
+}
+
+/* Large Devices */
+@media screen and (max-width: 1200px) { 
+    /* menu */
+
+    .s1_c1 > h1{
+        font-size: 3.5em;
+    }
+
+    .section_2 > h4{
+        font-size: 2.5;
+    }
+    .layout_tld > img{
+        width: 500px;
+    }
+
+    .container_boxes{
+        width: 100%;
+        background-color: transparent;
+        justify-content: space-around;
+    }
+}
+
+/* Medium Devices */
+@media screen and (max-width: 992px) { 
+    .section_1{
+        padding-bottom: 250px;
+    }
+    .section_1::before{
+        height: 100px;
+    }
+    
+    /* menu */
+
+    .group_buttons{
+        max-width: 85%;
+    }
+    .group_buttons > button{
+        padding: 15px 35px;
+        font-size: 1.2em;
+        height: 60px;
+    }
+    .group_buttons > button > img{
+        width: 20px;
+    }
+    .container_boxes > div{
+        width: 200px;
+        padding: 60px;
+    }
+    .section_2{
+        top: -300px;
+    }
+    .section_2 > h4{
+        margin-left: 80px;
+    }
+    .button_launch{
+        font-size: 1em;
+    }
+    .layout_tld{ 
+        padding-left: 38px;
+        padding-right: 38px;
+    }
+    .layout_tld > img{
+        width: 400px;
+    }
+
+    .section_3::before{
+        height: 100px;
+    }
+    .section_3::after{
+        height: 100px;
+    }
+    .section_3{
+        top: -200px;
+        padding-top: 80px;
+    }
+    .section_3 > div > h4 {
+        margin-top: 150px;
+        font-size: 1.8em;
+    }
+    .section_4 > h4{
+        margin-top: 200px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+}
+
+/* Small Devices */
+@media screen and (max-width: 768px) { 
+    .section_1{
+        padding-bottom: 150px;
+    }
+    .section_1::before{
+        height: 50px;
+        clip-path: polygon(100% 0%, 0% 100%, 100% 100%);
+    }
+    .s1_c1 > h1{
+        font-size: 2.0em;
+    }
+    .s1_c1 > p{
+        font-size: 1em;
+    }
+    .s1_c1{
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+    .container_boxes > div{
+        width: 80%;
+        padding: 70px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .container_boxes > div > div{
+        width: 70px;
+        height: 70px;
+    }
+    .container_boxes > div > div > img{
+        width: 60%;
+    }
+    .group_buttons{
+        max-width: 78%;
+        margin-top: 75px;
+    }
+    .group_buttons > button{
+        padding: 15px 35px;
+        font-size: 1em;
+        height: 60px;
+    }
+    .section_2{
+        top: -250px;
+    }
+    .section_2 > h4{
+        margin-left: 42px;
+        font-size: 1.5em;
+    }
+    .button_launch{
+        margin-top: 50px;
+    }
+    .layout_tld{
+        margin-top: 16px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .layout_tld > img{
+        margin-left: 22px;
+        margin-right: 22px;
+        width: 300px;
+    }
+    .section_3::before{
+        height: 50px;
+    }
+    .section_3::after{
+        height: 50px;
+    }
+    .section_3 > div > h4 {
+        margin-top: 80px;
+        font-size: 1.8em;
+    }
+}
+
+/* Extra Small Devices */
+@media screen and (max-width: 576px) { 
+    .section_1{
+        padding-bottom: 100px;
+    }
+    
+    /* menu */
+
+    .s1_c1 > h1{
+        font-size: 1.4em;
+    }
+    .s1_c1 > p{
+        font-size: 0.8em;
+    }
+    .s1_c1{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .container_boxes > div{
+        padding: 40px;
+    }
+    .section_2{
+        top: -200px;
+    }
+    .section_2 > h4{
+        font-size: 1.0em;
+    }
+    .button_launch{
+        margin-top: 20px;
+        margin-bottom: 80px;
+    }
+    .group_buttons{
+        max-width: 100%;
+        margin-top: 60px;
+    }
+    .group_buttons > button{
+        padding: 8px 10px;
+        font-size: 1em;
+        height: 60px;
+    }
+    .layout_tld > img{
+        margin-left: 12px;
+        margin-right: 12px;
+        width: 250px;
+    }
+    .section_3 > div > h4 {
+        margin-top: 40px;
+        font-size: 1.4em;
+    }
+}
