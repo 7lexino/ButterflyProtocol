@@ -7,6 +7,7 @@
     ?>
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./views/pages/home/home.css">
+    <link rel="stylesheet" href="./views/templates/header/header.css">
     <link rel="stylesheet" href="./views/templates/footer/footer.css">
     
     <!-- Recursos Ventanas Modales -->

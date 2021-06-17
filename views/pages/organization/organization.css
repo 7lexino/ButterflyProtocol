@@ -894,6 +894,7 @@ nav#ani-navbar a:hover:after{
     font-family: var(--font-family-works);
     font-size: 1.5em;
     font-weight: 100;
+    color: #FFF;
 }
 .card_profile > p{
     display: block;

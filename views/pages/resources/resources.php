@@ -7,8 +7,11 @@
     ?>
 
     <link rel="stylesheet" href="./views/pages/resources/resources.css">
+    <link rel="stylesheet" href="./views/templates/header/header.css">
     <link rel="stylesheet" href="./views/templates/footer/footer.css">
 
+    <!-- Recursos Ventanas Modales -->
+    <link rel="stylesheet" href="./assets/css/modal.css">
     <script src="./assets/js/modal.js"></script>
     
     <title>Butterfly Protocol :: Resources</title>
@@ -49,21 +52,20 @@
         
         <div class="s3_container">
           <h4>Enable Domains</h4>
-          <button id="community-id" class="btn_faq"><img src="./assets/img/community.svg" alt="">For Community</button>
+          <button id="btnCommunity" class="btn_faq"><img src="./assets/img/community.svg" alt="">For Community</button>
+          
           <!-- Modal -->
-          <div id="ModalId" class="modal">
-            <!-- Modal content -->
-            <div class="modal-content">
-              <span class="close">&times;</span>
-              <div class="modal-text">
-              Community Sponsorships are where anyone can sponsor a Top-Level Domain 
-              for a small amount of BFLY tokens. The original amount of BFLY needed 
-              was 10,000 and has been going down 10 BFLY per day until it stops going 
-              down at 100 BFLY. Refer to the Overview document to see how this is put into place.
+          <div id="modalId" class="modal">
+              <div class="modal_layout">
+                <!-- Modal content -->
+                <div class="modal_box">
+                  <span class="close_modal"><li class="fas fa-times"></li></span>
+                  <div id="modalContent" class="modal_content"></div>
+                </div>
               </div>
             </div>
-            </div>
           <!-- -->
+
           <iframe width="1000" height="450" src="https://www.youtube.com/embed/soDY4Pmt7BM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         

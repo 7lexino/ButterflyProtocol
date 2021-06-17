@@ -1,7 +1,7 @@
 <div class="footer">
   <div class="s5_c1">
     <h2>Get Involved</h2>
-    <p>Subscribe to our mailing list or contact<br>us through any of the following channels</p>
+    <p>Subscribe to our Newsletter or contact<br>us through any of the following channels</p>
   </div>
 
   <div class="s5_c2">

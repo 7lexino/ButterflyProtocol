@@ -800,6 +800,10 @@ nav#ani-navbar a:hover:after{
     margin-left: 30px;
     margin-top: 20px;
     display: block;
+    font-family: var(--font-family-works);
+    color: #1A1A63;
+    line-height: 1.5;
+    display: block;
 }
 .section_3{
     width: 100%;

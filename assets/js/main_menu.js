@@ -13,6 +13,7 @@ $(document).ready(function(){
     //Cerramos el menú al escalar ventana para evitar conflictos
     $(window).resize(() => {
       $("#main_menu").removeAttr("style");
+      $("#main_menu_mobile").hide();
     });
 
 });

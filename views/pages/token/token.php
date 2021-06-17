@@ -6,6 +6,7 @@
       include_once("./views/templates/head.php");
     ?>
     <link rel="stylesheet" href="./views/pages/token/token.css">
+    <link rel="stylesheet" href="./views/templates/header/header.css">
     <link rel="stylesheet" href="./views/templates/footer/footer.css">
 
     <title>Butterfly Protocol :: Token</title>
