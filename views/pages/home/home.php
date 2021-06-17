@@ -5,28 +5,32 @@
       //Include Head
       include_once("./views/templates/head.php");
     ?>
-    <script src="./assets/js/slider.js"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./views/pages/home/home.css">
+    <link rel="stylesheet" href="./views/templates/header/header.css">
+    <link rel="stylesheet" href="./views/templates/footer/footer.css">
+    
+    <!-- Recursos Ventanas Modales -->
+    <link rel="stylesheet" href="./assets/css/modal.css">
     <script src="./assets/js/modal.js"></script>
+
+    <!-- Recursos Slider -->
+    <script src="./assets/js/slider.js"></script>
 
     <title>Butterfly Protocol :: Home</title>
   </head>
 
   <body>
-
-    <div class="container-fluid">
-      
-    </div>
-
     <div class="main_container">
       <div class="section_1">
         <?php
           //Include Main Header
-          include_once("./views/templates/header.php");
+          include_once("./views/templates/header/header.php");
         ?>
       
         <article class="s1_c1">
-          <h1 data-aos="fade-up" data-aos-duration="1000">The Decentralized Naming System for the New Internet</h1>
-          <p data-aos="fade-up" data-aos-duration="700" data-aos-delay="500">Blockchain Domains, Flexible Naming, True Ownership, Censorship Resistant, Decentralized control</p>
+          <h1>The Decentralized Naming System for the New Internet</h1>
+          <p>Blockchain Domains, Flexible Naming, True Ownership, Censorship Resistant, Decentralized control</p>
           <div class="group_buttons">
             <button name="radioButtons1" id="btnFind"><img width="30px" src="./assets/img/find.svg" alt=""> Find</button>
             <button name="radioButtons1" id="btnRegister"><img width="35px" src="./assets/img/register.svg" alt=""> Register</button>
@@ -52,41 +56,23 @@
         <div class="s3_content">
           <h4>Sponsor Top-Level Domains</h4>
 
-          <!-- -->
           <div class="group_buttons2">
-           <button id="community-id"><img src="./assets/img/community.svg" alt="">For Community</button>
-            <button id="private-id"><img src="./assets/img/private.svg" alt="">For Private Use</button>
+           <button id="btnCommunity"><img src="./assets/img/community.svg" alt="">For Community</button>
+            <button id="btnPrivate"><img src="./assets/img/private.svg" alt="">For Private Use</button>
           </div>
 
-        
           <!-- Modal -->
-            <div id="ModalId" class="modal">
-            <!-- Modal content -->
-            <div class="modal-content">
-              <span class="close">&times;</span>
-              <div class="modal-text">
-              Community Sponsorships are where anyone can sponsor a Top-Level Domain 
-              for a small amount of BFLY tokens. The original amount of BFLY needed 
-              was 10,000 and has been going down 10 BFLY per day until it stops going 
-              down at 100 BFLY. Refer to the Overview document to see how this is put into place.
+            <div id="modalId" class="modal">
+              <div class="modal_layout">
+                <!-- Modal content -->
+                <div class="modal_box">
+                  <span class="close_modal"><li class="fas fa-times"></li></span>
+                  <div id="modalContent" class="modal_content"></div>
+                </div>
               </div>
             </div>
-            </div>
           <!-- -->
-          <!--  Modal 2 -->
-          <div id="ModalId2" class="modal2">
-            <!-- Modal content -->
-            <div class="modal-content2">
-              <span class="close2">&times;</span>
-              <div class="modal-text2">
-              Private Sponsorship is when 100,000 BFLY tokens are used to do a 
-              total takeover of the Top-Level Domain, giving the sponsor full 
-              control over using the TLD for their desired use. It can form the 
-              basis of a DApp, a token sale or other ways in which management of a TLD has value.
-              </div>
-            </div>
-            </div>
-          <!-- -->
+
           <img class="img_voxel" data-aos="fade-up" data-aos-duration="1000" src="./assets/img/voxels.svg" alt="">
         </div>
       </div>
@@ -161,12 +147,12 @@
             <p>Install the simple browser extension and you are ready to access the new internet. There are no servers to install, and no need trying to figure out what the heck a C record is.</p>
           </div>
         </div>
-      
       </div>
-    
+
       <?php
-      //Footer
-      include_once("./views/templates/footer.php");
-    ?>
+        //Footer
+        include_once("./views/templates/footer/footer.php");
+      ?>
+    </div>
   </body>
 </html>
