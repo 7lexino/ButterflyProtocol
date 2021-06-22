@@ -70,7 +70,7 @@
             <br><br>All TLDs are ERC-721 tokens and carry on as the respective TLD Root. However, private 
             TLD sponsors can have the root locked and then take the TLD cross chain. This opens 
             up a significant range of opportunities for sponsors.
-            <br><br>See the original tokenomics <a target="_blank" href="https://www.butterflyprotocol.io/wp-content/uploads/2021/01/ButterflyProtocol_Tokenomics_v4.pdf">here.</a>
+            <br><br>See the original tokenomics <a target="_blank" href="https://www.butterflyprotocol.io/documents/tokenomics.pdf">here.</a>
           </p>
         </div>
       </div>

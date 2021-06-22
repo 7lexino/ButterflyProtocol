@@ -413,36 +413,8 @@ nav#ani-navbar a:hover:after{
 
 /* Extra Large Devices */
 @media screen and (max-width: 1432px) { 
-    .layout_main_menu > span{
-        width: 50px;
-        background-color: transparent;
-        margin: 0px;
-        padding: 0px;
-        margin-left: 30px;
-    }
-    .layout_main_menu > nav{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: center;
-        align-items: center;
-    }
-    .layout_main_menu > nav > a{
-        max-width: 100px;
-    }
-    .layout_main_menu{
-        width: 77%;
-        background-color: transparent;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: flex-end;
-        align-items: center;
-        z-index: 100;
-    }
-
-    .layout_main_menu > span{
-        display: inline-block;
+    .section_1::before{
+        height: 150px;
     }
     .s1_c1 > h1{
         font-size: 3.5em;
@@ -477,45 +449,6 @@ nav#ani-navbar a:hover:after{
 
 /* Large Devices */
 @media screen and (max-width: 1200px) { 
-    .main_header{
-        display: flex;
-        flex-direction: column;
-        height: auto;
-    }
-    .layout_logo{
-        max-width: 100%;
-        width: auto;
-        margin: 0px;
-        margin-top: 40px;
-    }
-    .layout_main_menu{
-        width: 90%;
-        display: flex;
-        flex-wrap: nowrap;
-        flex-direction: column;
-        margin: 0px;
-        margin-top: 40px;
-        z-index: 100;
-    }
-    #main_menu > nav{
-        width: 100%;
-        background-color: transparent;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: space-between;
-    }
-    .layout_main_menu > nav > a{
-        margin-left: 0px;
-        max-width: 100%;
-    }
-    .layout_main_menu > span{
-        width: auto;
-        display: flex;
-        justify-content: center;
-        margin-top: 10px;
-    }
-
     .s1_c1 > h1{
         font-size: 3.5em;
     }
@@ -540,83 +473,12 @@ nav#ani-navbar a:hover:after{
     .section_1::before{
         height: 100px;
     }
-    .mobile_menu{
-        position: fixed;
-        display: block;
-        top: 15px;
-        right: 15px;
-        cursor: pointer;
-        z-index: 99;
-        background-color: #1D2EAB;
-        padding: 15px 20px;
-    }
-    .mobile_menu:hover{
-        background-color: #1929a1;
-    }
-    .layout_main_menu{
-        position: fixed;
-        z-index: 98;
-    }
-    .fa-bars{
-        color: #FFF;
-    }
-    #main_menu{
-        width: 97%;
-        position:fixed;
-        background-color: #1D2EAB;
-        padding-top: 10px;
-        display: none;
-        top: 30px;
-        right: 15px;
-        z-index: 2;
-    }
-    #main_menu > nav{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: center;
-        align-items: center;
-    }
-    #main_menu > nav > a{
-        padding:10px;
-        width: 95%;
-        text-align: center;
-    }
-    #main_menu > nav > a:hover{
-        background-color: #1929a1;
-    }
-    #main_menu > span{
-        margin-left: 0px;
-    }
-
-    .group_buttons{
-        max-width: 85%;
-    }
-    .group_buttons > button{
-        padding: 15px 35px;
-        font-size: 1.2em;
-        height: 60px;
-    }
-    .group_buttons > button > img{
-        width: 20px;
-    }
     .section_2{
         top: -300px;
     }
     .section_2 > h4{
         margin-left: 80px;
     }
-    .button_launch{
-        font-size: 1em;
-    }
-    .layout_tld{ 
-        padding-left: 38px;
-        padding-right: 38px;
-    }
-    .layout_tld > img{
-        width: 400px;
-    }
-
     .section_3::before{
         height: 100px;
     }
@@ -658,35 +520,12 @@ nav#ani-navbar a:hover:after{
         margin-left: 7%;
         margin-right: 7%;
     }
-
-    .group_buttons{
-        max-width: 78%;
-        margin-top: 75px;
-    }
-    .group_buttons > button{
-        padding: 15px 35px;
-        font-size: 1em;
-        height: 60px;
-    }
     .section_2{
         top: -250px;
     }
     .section_2 > h4{
         margin-left: 42px;
         font-size: 1.5em;
-    }
-    .button_launch{
-        margin-top: 50px;
-    }
-    .layout_tld{
-        margin-top: 16px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    .layout_tld > img{
-        margin-left: 22px;
-        margin-right: 22px;
-        width: 300px;
     }
     .section_3::before{
         height: 50px;
@@ -708,9 +547,6 @@ nav#ani-navbar a:hover:after{
     .section_1{
         padding-bottom: 100px;
     }
-    .layout_logo > img{
-        width: 50%;
-    }
     .s1_c1 > h1{
         font-size: 1.4em;
     }
@@ -728,24 +564,6 @@ nav#ani-navbar a:hover:after{
     .section_2 > h4{
         font-size: 1.0em;
     }
-    .button_launch{
-        margin-top: 20px;
-        margin-bottom: 80px;
-    }
-    .group_buttons{
-        max-width: 100%;
-        margin-top: 60px;
-    }
-    .group_buttons > button{
-        padding: 8px 10px;
-        font-size: 0.8em;
-        height: 60px;
-    }
-    .layout_tld > img{
-        margin-left: 12px;
-        margin-right: 12px;
-        width: 250px;
-    }
     .section_3 > div > h4 {
         margin-top: 40px;
         font-size: 1.4em;
@@ -757,7 +575,7 @@ nav#ani-navbar a:hover:after{
 }
 .section_2{
     width: 100%;
-    top: -170px;
+    top: -100px;
     margin: 0 auto;
     display: flex;
     flex-direction: row;

@@ -125,7 +125,7 @@
   
           <div>
             <div>
-              <img src="./assets/img/icon_6.svg" alt="" srcset="" style="width:60px; margin-top:-3px;">
+              <img src="./assets/img/icon_6.svg" alt="" srcset="" style="margin-top:-3px;">
             </div>
             <h6>Profitable</h6>
             <p>Not only can you sell names you own through the built-in auction site, but you can sell sub names too. With Butterfly, making money from online properties is no longer the domain of squatters.</p>

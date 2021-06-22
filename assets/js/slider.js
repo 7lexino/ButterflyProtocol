@@ -24,7 +24,7 @@ $(document).ready(function(){
       slider.scrollLeft = scrollLeft - walk;
     });
 
-    
+      
 
     $("#btnFind").click(() => {
       let left = $("#layout_stats").width();
