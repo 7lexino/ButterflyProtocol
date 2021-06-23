@@ -28,7 +28,7 @@
     
       <div class="section_2">
         <div class="s2_img">
-          <img src="./assets/img/img_redes.svg" alt="">
+          <img src="./assets/img/img_redes.svg" alt="Resources" data-aos="fade-right" data-aos-duration="1000">
         </div>
         <div class="s2_content">
           <div>
@@ -36,9 +36,12 @@
             <h1>Butterfly Protocol</h1>
             <p>We create an environment where anyone can build decentralized apps and resources for using the decentralized web. As development progresses, we aim to keep the community aware of the applications that are being developed.<br><br> To understand more about how Butterfly works and opportunities for contributing and participating, start with the whitepaper and brief overview:</p>
             <div class="btns_group">
-              <a href="https://www.butterflyprotocol.io/wp-content/uploads/2020/12/ButterflyProtocolWhitePaper-1.pdf">
-                <button class="btn_whitepaper">Whitepaper</button></a>
-              <a href="https://www.butterflyprotocol.io/wp-content/uploads/2020/12/ButterflyProtocol_Overview_Deck.pdf"><button class="btn_overview">Overview document</button></a>
+              <a target="_blank" href="https://www.butterflyprotocol.io/documents/whitepaper.pdf">
+                <button class="btn_whitepaper">Whitepaper</button>
+              </a>
+              <a target="_blank" href="https://www.butterflyprotocol.io/documents/overview.pdf">
+                <button class="btn_overview">Overview document</button>
+              </a>
             </div>
           </div>
         </div>

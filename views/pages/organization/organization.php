@@ -23,7 +23,7 @@
     
       <div class="section_2">
         <div class="s2_img">
-          <img src="./assets/img/organization.svg" alt="">
+          <img src="./assets/img/organization.svg" alt="Organization" data-aos="fade-right" data-aos-duration="1000">
         </div>
         <div class="s2_content">
           <div>
@@ -42,9 +42,9 @@
         <div class="s3_description">
           <h1>Guided by</h1>
          </div>
-        <div class="s3_profiles">
+        <div class="s3_profiles" data-aos="fade-up" data-aos-duration="1000">
           <div class="card_profile">
-            <img src="./assets/img/Dana-Farbo.jpeg" alt="Dana Forbo - President">
+            <img src="./assets/img/Dana-Farbo.jpeg" alt="Dana Forbo - Strategy">
             <h3><a href="https://www.linkedin.com/in/dfarbo/" target="_blank"><img src="./assets/img/linkedin_icon.svg" width="20px" alt=""></a> DANA FARBO</h3>
             <p>Strategy</p>
           </div>

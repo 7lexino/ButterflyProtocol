@@ -24,23 +24,26 @@ $(document).ready(function(){
       slider.scrollLeft = scrollLeft - walk;
     });
 
-    
-
     $("#btnFind").click(() => {
-      let left = $("#layout_stats").width();
-      $("#layout_stats").scrollLeft(-left);
-
+      $("#layout_stats").animate({scrollLeft: 0}, 600);
+      $(".btnGrp").removeClass("btnActivo");
+      $("#btnFind").addClass("btnActivo");
     });
 
     $("#btnUse").click(() => {
-      let left = $("#layout_stats").width();
-      $("#layout_stats").scrollLeft(left);
-
+      let width = $("#layout_stats").width();
+      $("#layout_stats").animate({scrollLeft: width}, 600);
+      $(".btnGrp").removeClass("btnActivo");
+      $("#btnUse").addClass("btnActivo");
     });
 
     $("#btnRegister").click(() => {
-      let left = $("#layout_stats").width();
-      $("#layout_stats").scrollLeft(left/5);
+      let outerwidth = $("#layout_stats")[0].scrollWidth;
+      let width = $("#layout_stats").width();
+      let mid = (outerwidth-width)/3;
+      $("#layout_stats").animate({scrollLeft: mid});
+      $(".btnGrp").removeClass("btnActivo");
+      $("#btnRegister").addClass("btnActivo");
     });
 
 });

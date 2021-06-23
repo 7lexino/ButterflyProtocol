@@ -223,7 +223,7 @@
 
 /* Extra Small Devices */
 @media screen and (max-width: 576px) { 
-    .layout_logo > img{
-        width: 50%;
+    .layout_logo > a > img{
+        width: 200px;
     }
 }
