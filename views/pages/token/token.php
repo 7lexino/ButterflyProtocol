@@ -23,7 +23,7 @@
          
       <div class="section_2">
         <div class="s2_img">
-          <img src="./assets/img/img_s1.svg" alt="">
+          <img src="./assets/img/img_s1.svg" alt="Token" data-aos="fade-right" data-aos-duration="1000">
         </div>
         <div class="s2_content">
           <div>
@@ -46,7 +46,7 @@
             <a target="_blank" href="https://exchange.pancakeswap.finance/#/swap"><button><img src="./assets/img/private.svg" alt="">PancakeSwap</button></a>
           </div>
           <p>View Governance Token Contract on<br>Etherscan <a target="_blank" href="https://etherscan.io/token/0xf680429328caaaCabee69b7A9FdB21a71419c063">here.</a></p>
-          <img class="img_voxel" data-aos="fade-up" data-aos-duration="1000" src="./assets/img/cube_token.svg" alt="">
+          <img class="img_voxel" data-aos="fade-left" data-aos-duration="1000" src="./assets/img/cube_token.svg" alt="">
         </div>
       </div>
 

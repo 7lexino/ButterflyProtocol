@@ -56,26 +56,6 @@ h6{
 }
 
 
-.s1_c1{
-    /* max-width: 1363px; */
-    margin: 0 auto;
-    margin-left: 10%;
-    margin-right: 10%;
-    text-align: center;
-}
-.s1_c1 > h1{
-    margin-top: 10%;
-}
-.s1_c1 > p{
-    display: block;
-    font-family: var(--font-family-works);
-    font-size: 1.5em;
-    color: var(--color-white);
-    color: #FFF;
-    font-weight: lighter;
-    margin-top: 25px;
-}
-
 /* --------------- End Section 1 --------------- */
 
 /* --------------- Section 2 --------------- */
@@ -92,6 +72,9 @@ h6{
 }
 .section_2 > p {
     display: none;
+    font-family: var(--font-family-works);
+    color: #1A1A63;
+    line-height: 1.5;
 }
 .section_2 > h4{
     margin-left: 130px;

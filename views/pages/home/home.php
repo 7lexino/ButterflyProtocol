@@ -32,9 +32,9 @@
           <h1>The Decentralized Naming System for the New Internet</h1>
           <p>Blockchain Domains, Flexible Naming, True Ownership, Censorship Resistant, Decentralized control</p>
           <div class="group_buttons">
-            <button name="radioButtons1" id="btnFind"><img width="30px" src="./assets/img/find.svg" alt=""> Find</button>
-            <button name="radioButtons1" id="btnRegister"><img width="35px" src="./assets/img/register.svg" alt=""> Register</button>
-            <button name="radioButtons1" id="btnUse"><img width="22px" src="./assets/img/use.svg" alt=""> Use</button>
+            <button class="btnGrp btnActivo" name="radioButtons1" id="btnFind"><img width="30px" src="./assets/img/find.svg" alt=""> Find</button>
+            <button class="btnGrp" name="radioButtons1" id="btnRegister"><img width="35px" src="./assets/img/register.svg" alt=""> Register</button>
+            <button class="btnGrp" name="radioButtons1" id="btnUse"><img width="22px" src="./assets/img/use.svg" alt=""> Use</button>
           </div>
         </article>
       
@@ -42,7 +42,7 @@
      
       <div class="section_2">
         <h4>For Current Top-Level Domains</h4>
-        <div id="layout_stats" class="layout_tld">
+        <div id="layout_stats" class="layout_tld" data-aos="fade-left" data-aos-duration="1000">
           <img src="./assets/img/Find-Dashboard-Butterfly.png" alt="">
           <img src="./assets/img/Register-Dashboard-Butterfly.png" alt="">
           <img src="./assets/img/Use-Dashboard-Butterfly.png" alt="">
@@ -125,7 +125,7 @@
   
           <div>
             <div>
-              <img src="./assets/img/icon_6.svg" alt="" srcset="" style="margin-top:-3px;">
+              <img width="50px" src="./assets/img/icon_6.svg" alt="" srcset="" style="margin-top:-3px;">
             </div>
             <h6>Profitable</h6>
             <p>Not only can you sell names you own through the built-in auction site, but you can sell sub names too. With Butterfly, making money from online properties is no longer the domain of squatters.</p>

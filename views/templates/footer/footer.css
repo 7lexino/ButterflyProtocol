@@ -172,3 +172,7 @@
         padding-right: 20px;
     }
 }
+
+.grecaptcha-badge{
+    display: none !important;
+}
