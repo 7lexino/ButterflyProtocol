@@ -47,6 +47,10 @@
         </div>
         <p>We create an environment where anyone can build decentralized apps and resources for using the decentralized web. As development progresses, we aim to keep the community aware of the applications that are being developed.<br><br> To understand more about how Butterfly works and opportunities for contributing and participating, start with the whitepaper and brief overview:</p>
       </div>
+      
+      <div class="s2_video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/WAuvy6tlt80" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
     
       <div class="section_3">
         <div class="s3_voxel">
@@ -68,8 +72,9 @@
               </div>
             </div>
           <!-- -->
-
-          <iframe width="1000" height="450" src="https://www.youtube.com/embed/soDY4Pmt7BM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div class="s3_video">
+            <iframe width="1000" height="450" src="https://www.youtube.com/embed/soDY4Pmt7BM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
         </div>
         
         <div class="s3_voxel v_left">

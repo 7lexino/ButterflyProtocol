@@ -691,21 +691,26 @@ h6{
         padding-right: 0px;
         padding-left: 0px;
     }
+    .s2_content > div > span{
+        font-size: 1.3em;
+    }
+    .s2_content > div > h1{
+        font-size: 2.5em;
+        line-height: 1.2;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
     .s2_img{
         text-align: center;
         width: 100%;
     }
     .s2_img > img{
-        width: 30%;
+        width: 50%;
     }
     .s2_content > div{
         background-color: transparent;
         margin-right: 0px;
         margin-top: 0px;
-    }
-    .s2_content > div > h1{
-        font-size: 2.2em;
-        line-height: normal;
     }
     .section_2 > p{
         margin-top: 0px;

@@ -528,6 +528,15 @@ h6{
         top: 0px;
         margin-bottom: 50px;
     }
+    .s2_content > div > span{
+        font-size: 1.3em;
+    }
+    .s2_content > div > h1{
+        font-size: 2.5em;
+        line-height: 1.2;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
     .s2_content{
         width: 100%;
         margin: 20px 100px;
@@ -541,7 +550,7 @@ h6{
         width: 100%;
     }
     .s2_img > img{
-        width: 30%;
+        width: 50%;
     }
     .s2_content > div{
         background-color: transparent;
@@ -592,8 +601,9 @@ h6{
         padding-top: 100px;
     }
     .section_4 > h4{
-        width: 100%;
-        margin: 0px 0px;
+        width: 80%;
+        margin: 20px auto;
+        font-size: 1.8em;
     }
     .video_frame > iframe{
         width: 480px;
